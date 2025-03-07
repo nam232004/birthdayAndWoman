@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 220, 38, 38;
+    --background-end-rgb: 185, 28, 28;
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(to bottom,
+            rgb(var(--background-start-rgb)),
+            rgb(var(--background-end-rgb)));
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.rose-petal {
+    pointer-events: none;
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background: #FF4081;
+    border-radius: 50% 0 50% 50%;
+    opacity: 0.8;
+}
+
+/* Radial gradient background */
+.bg-radial-gradient {
+    background: radial-gradient(circle at center, var(--tw-gradient-from) 0%, var(--tw-gradient-via) 50%, var(--tw-gradient-to) 100%);
+}
+
+/* Glow effect */
+.glow {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+        0 0 30px rgba(255, 255, 255, 0.3),
+        0 0 45px rgba(255, 255, 255, 0.1);
+}
+
+/* Shimmer effect */
+@keyframes shimmer {
+    0% {
+        background-position: -200% center;
+    }
+
+    100% {
+        background-position: 200% center;
+    }
+}
+
+.shimmer {
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.2) 25%,
+            rgba(255, 255, 255, 0.2) 75%,
+            rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite linear;
+}

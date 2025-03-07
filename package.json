@@ -1,0 +1,30 @@
+{
+  "name": "valentine",
+  "version": "1.0.0",
+  "description": "Valentine and Birthday celebration page",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "latest",
+    "framer-motion": "latest",
+    "next": "latest",
+    "nodemailer": "^6.10.0",
+    "postcss": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hot-toast": "^2.5.2",
+    "tailwindcss": "3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.9",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "19.0.10",
+    "typescript": "5.8.2"
+  }
+}
