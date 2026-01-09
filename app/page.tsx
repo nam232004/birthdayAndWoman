@@ -252,10 +252,10 @@ const Card = ({ isVisible, onClose, onNext, onPrev, currentModal }: {
                 🎂 Happy Birthday! ❤️
             </h2>
             <p style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>
-                Mừng Như bước sang tuổi mới!
+                Mừng ... bước sang tuổi mới!
             </p>
             <p style={{ fontSize: '1.2rem', fontStyle: 'italic', marginBottom: '1.5rem' }}>
-                Chúc Như có một ngày sinh nhật tuyệt vời và tràn đầy niềm vui!
+                Chúc ... có một ngày sinh nhật tuyệt vời và tràn đầy niềm vui!
                 <br />
                 Công việc, học tập luôn suôn sẻ, quan trọng nhất vẫn là sức khỏe và bình an 🍀
             </p>
